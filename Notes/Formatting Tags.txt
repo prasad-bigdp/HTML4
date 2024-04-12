@@ -1,0 +1,14 @@
+Fomatting tags are used to format the text. 
+There are formmatting tags like 
+b-> used to make text Bold
+strong -> also used to make the text bold but better SEO,
+i --> used to make text italic,
+em--> used to make text italic but better SEO
+u--> used to make text get underline
+ins--> used to make text get underline but it means inserted text to SEO.
+del- used to make text deleted(strike through)
+sub- used to get subscript
+sup- used to get superscript
+pre - pre means pre formatted text. Pre is used to  bring pre formmated data.
+br-- break the line
+hr- horizontal line

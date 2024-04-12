@@ -1,0 +1,28 @@
+what is HTML?
+HTML- Hyper Text Markup language. HTML is used to develop Skeleton/Structure of the Page. HTML uses tags for developing
+HTML started from GML=>SGML=>HTML. started in 1992. current version is HTML5.
+Download and install VS code.
+shortcuts used in Visual studio code are called emmets
+
+create an empty folder and open in VS code
+
+
+Auto save=>file=> autosave
+install extension live server,live preview
+
+The gap we give in editor for more readability is called indentation
+
+
+
+
+
+
+
+
+
+
+HTML tags will have open or close. 
+<tagname> --- open tag
+</tagname> --  close tag.
+Whole HTML Code will be between html open and html close tags.
+HTML will have head and body
