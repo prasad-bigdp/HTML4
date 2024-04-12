@@ -1,8 +1,7 @@
 Terminal---> new Terminal
 1. git init
 2. git add .
-3. git commit -m "message"
-xyz
+3. git commit -m "message
         git config --global user.email "email"
         git config --global user.name "username"
         Do again steps 2 & 3 
