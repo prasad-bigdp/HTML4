@@ -1,9 +1,10 @@
 Terminal---> new Terminal
 1. git init
 2. git add .
-3. git commit -m "message
+3. git commit -m "message"
         git config --global user.email "email"
         git config --global user.name "username"
         Do again steps 2 & 3 
 4. git remote add origin "link"
 5. git push -u origin master
+git remote remove origin

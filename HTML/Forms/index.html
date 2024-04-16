@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <p> all * are required</p>
+    <form action="main.java">
+      <label for="name">Name:*</label>
+      <input type="text" placeholder="Enter the name" name="uname" id="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email"><br><br>
+      <label for="pwd">Password:</label>
+      <input type="password" name="pwd" id="pwd" minlength="4" maxlength="10"><br><br>
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" min="25" max="55" disabled>
+      <br>
+      <br>
+
+      <input type="date" name="dob" id=""><br><br>
+      <input type="file" name="file" id="">
+      <input type="color" name="" id="">
+      <input type="url" name="" id="">
+      <input type="search" name="" id=""><br><br>
+
+
+      <select name="course" id="course" size="6" multiple>
+        <option value="">Choose Course</option>
+        <optgroup label="IT">
+          <option value="java">JAVA</option>
+          <option value="frontend">Frontend</option>
+          <option value="Python">Python</option>
+          <option value="ds">Data science</option>
+        </optgroup>
+        <optgroup label="ECE">
+          <option value="BEE">
+            BEE
+          </option>
+          <option value="eca">ECA</option>
+        </optgroup>
+        <optgroup label="mech">
+          <option value="autocad">Autocad</option>
+          <option value="fm">Fluid Mechanics</option>
+        </optgroup>
+      </select>
+      <p>Choose languages:</p>
+      <input type="checkbox" name="lang" id="lang1" value="hin">
+      <label for="lang1">Hindi</label>
+      <input type="checkbox" name="lang" id="lang2">
+      <label for="lang2" aria-valuemax="en">English</label>
+      <input type="checkbox" name="lang" id="lang3">
+      <label for="lang3" aria-valuemax="tel">Telugu</label>
+      <br><br>
+      <input type="radio" name="gender" id="gm">
+      <label for="gm" value="male">Male</label>
+      <input type="radio" name="gender" id="gf" value="female">
+      <label for="gf">Female</label>
+      <p>select course</p>
+      <input type="hidden" name="class" value="java31">
+
+
+
+      <button>submit</button>
+      <input type="button" value="submit">
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+    </form>
+
+
+
+
+    <!-- create a sample form with name, email, password with labels-->
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
