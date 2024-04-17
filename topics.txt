@@ -1,0 +1,13 @@
+HTML
+_________
+Layout
+Headings,paragraph
+a and img
+lists
+tables
+semantic
+block vs inline
+forms
+validation
+media
+HTML5 -- svg, canvas, drag and drop, geolocation, data attributes etc..,
