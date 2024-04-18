@@ -1,0 +1,32 @@
+body{
+    background:radial-gradient(red,blue,red,blue,red,blue,red,blue,red,blue);
+    height: 100vh;
+}
+button
+{
+    background-color: red;
+    color: blue;
+}
+/*.classname*/
+.chintu
+{
+    background-color: green;
+}
+/* # is for id*/
+#bunti{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+h1
+{
+    color: white;
+}
