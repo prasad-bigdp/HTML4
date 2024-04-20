@@ -15,3 +15,10 @@ forms
 validation
 media
 HTML5 -- svg, canvas, drag and drop, geolocation, data attributes etc..,
+
+CSS
+-------
+different CSS styles- inline,internal and external
+basic selectors(tagname,.classname,#idname)
+colors(by name,hex code,rgb,rgba,hsl,hsla)
+linear-gradient, radial-gradient

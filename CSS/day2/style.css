@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+body{
+  background:url('../../HTML/images/small-dog.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight:900;
+  font-style:unset;
+
+}
+p
+{
+ text-align: center;
+ text-transform:capitalize;
+ color:red;
+ text-decoration:none;
+text-shadow: -5px 5px black;
+}
+
+
+
+
+
+
+
+
+/* body
+{
+background-color: antiquewhite;
+}
+.main{
+    background-color: aliceblue;
+    height: 50vh;
+    width: 50vw;
+    font-size: 20px;
+}
+.box{
+    background-color: red;
+    height:50%;
+    width: 50px;
+} */

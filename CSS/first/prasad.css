@@ -1,5 +1,5 @@
 body{
-    background:radial-gradient(red,blue,red,blue,red,blue,red,blue,red,blue);
+    background:linear-gradient(to left,red,blue);
     height: 100vh;
 }
 button
