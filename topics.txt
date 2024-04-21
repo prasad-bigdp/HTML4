@@ -22,3 +22,8 @@ different CSS styles- inline,internal and external
 basic selectors(tagname,.classname,#idname)
 colors(by name,hex code,rgb,rgba,hsl,hsla)
 linear-gradient, radial-gradient
+fonts(google fonts)
+units(px, em,rem,vw,vh, %)
+background(image,size,attachment,position)
+text(align,decoration,transform,shadow)
+Box Model

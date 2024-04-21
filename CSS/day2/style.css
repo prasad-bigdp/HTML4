@@ -14,7 +14,9 @@ body{
 }
 p
 {
- text-align: center;
+  border:10px solid black;
+ padding:50px 20px 100px 150px;
+ margin:20px ;
  text-transform:capitalize;
  color:red;
  text-decoration:none;

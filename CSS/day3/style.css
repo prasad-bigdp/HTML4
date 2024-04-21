@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+}
+.box{
+    
+    padding: 20px;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;   
+    background-color: red;
+    border: 1px solid white;
+}
+.box~p
+{
+color:white;
+}
+.stand
+{
+    background-color: aliceblue;
+
+    height: 100vh;
+    width: 20px;
+    margin-left:30px
+}
+
+/* pseudo selector */
+.box:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+

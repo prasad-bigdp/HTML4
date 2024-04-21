@@ -1,0 +1,22 @@
+Box Model is called "heart" of CSS.
+It explains everyy element is treated a s a BOX and it contains three things
+1.Border: outmost line of a box is called border. you can specify border-left,border-right,border-top and border-bottom
+
+syntax:
+border: width type color;
+2.Padding:
+
+The gap between border and actual content of site is known as Padding
+
+you can specify padding-leftt,right,top,bottom.
+
+padding:10px --> all sides 10px
+padding: 10px 20px -->
+Top,bottom--->10px 
+left,right--->20px
+padding: 10px 20px 30px--->
+top -->10px, left,right-->20px, bottom--->30px
+
+padding: top right bottom left;
+3.Margin:
+it also applies same as padding but margin means gap between boxes. it applies outside the border
