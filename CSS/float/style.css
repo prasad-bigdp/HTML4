@@ -1,0 +1,17 @@
+.image
+{
+    float: left;
+}
+p
+{
+    clear: both;
+}
+.box
+{
+    height: 100px;
+    width: 40%;
+    background-color: red;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+}

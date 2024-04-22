@@ -1,0 +1,9 @@
+different css styles-- inline,internal,external
+colors - by name, hex code,rgb,rgba,hsh,hsla
+units - px,em,rem,vw,vh,%
+fonts - serif,sans-serif,cursive,fantasy,monospace
+text - align,size,color,shadow,transform
+background- url - image,repeat,size,position,attachement
+selectors - name,.classname,#idname, x y(descendent),x>y(parent)
+BOX model- padding,margin,border
+Peudo classes and Pseudo elements:

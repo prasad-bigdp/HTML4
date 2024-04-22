@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    border: 1px solid black;
+height: 100px;
+width: 100px;
+}
+/* pesudo elements select the elements based on state of the element*/
+.box:hover
+{
+    background-color: red;
+}
+a:link
+{
+background-color: red;
+}
+a:active{
+    background-color: yellow;
+}
+a:visited{
+    background-color: black;
+    color: white;
+}
+input:focus
+{
+    background-color: red;
+}
+input:enabled
+{
+    background-color: yellow;
+}
+
+p:nth-of-type(2)
+{
+    background-color: red;
+}
+.box:empty{
+background-color: yellow;
+}
+
+/* pseudo classes are used to select elements based on their position */
+
+p::first-letter
+{
+    font-size: 50px;
+}
+p::first-line
+{
+    background-color: red;
+}
+p::after
+{
+    content:"prasad"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
