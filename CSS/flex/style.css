@@ -1,0 +1,19 @@
+.main{
+display: flex;
+flex-direction:row;
+height: 100vh;
+
+}
+.box{
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+  
+
+}
+.box1
+{
+  flex-shrink:2;
+}

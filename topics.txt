@@ -26,4 +26,5 @@ fonts(google fonts)
 units(px, em,rem,vw,vh, %)
 background(image,size,attachment,position)
 text(align,decoration,transform,shadow)
-Box Model
+Box Model,
+Pseudo elements,classes and float

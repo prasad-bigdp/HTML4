@@ -1,0 +1,17 @@
+Display Property is used to display the element/elements.
+Display: block---> it make the elemnets block.. one after another
+Display: inline---> it makes elements appear side by side but height and width are not considered.
+Display: inline-block ---> it makes elements appear side by side and height/width are also considered.
+Display:table--> convert elements into tables
+Display:none---> remove the element.
+
+Display Flex -----> flex is used to represent elemnt in one dimension
+
+flex always applies to container.
+
+
+
+
+
+
+
