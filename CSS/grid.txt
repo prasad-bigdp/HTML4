@@ -1,0 +1,2 @@
+Grid is used to display the items in 2 dimentional space
+By default grid container takes all elements as children
