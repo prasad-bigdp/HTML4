@@ -28,3 +28,9 @@ background(image,size,attachment,position)
 text(align,decoration,transform,shadow)
 Box Model,
 Pseudo elements,classes and float
+flex
+grid
+position
+transition
+animation
+media queries

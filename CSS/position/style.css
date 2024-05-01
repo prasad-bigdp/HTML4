@@ -1,0 +1,16 @@
+.box{
+ background-color: red;
+ height: 50px;
+ width: 50px;
+ margin: 10px;
+ color: aliceblue;
+ transition-duration: 5s;
+ transition-property: all;
+ transition-timing-function: ease-in-out;
+}
+/* static, absolute, relative, 
+fixed, sticky */
+/* transitions */
+.box:hover{
+    transform: translateY(-100px)
+}
