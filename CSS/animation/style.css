@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    animation: prasad 5s ease 5s alternate-reverse;
+}
+@keyframes prasad {
+    0%{
+      
+    }
+    20%{
+      background-color: blue;
+      top: 500px;
+      left: 200px;
+    }
+    40%{
+background-color:green;
+      top: 120px;
+      left: 100px;
+    }
+    60%{
+background-color: blue;
+border-radius: 50%;
+      top: 600px;
+      left: 500px;
+    }
+    80%{
+      background-color: red;
+      top: 500px;
+      left: 200px;
+    }
+    100%{
+       border-radius: 50%;
+       left: 200px;
+    }
+}
