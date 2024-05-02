@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+ font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+li
+{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.name{
+    color: aqua;
+}
+li:hover{
+    transform: scale(1.1);
+}
+a:hover{
+    color: aqua;
+}
+section{
+     margin: 10px;
+    padding: 20px 50px;
+}
+#banner{
+    display: flex;
+   
+}
+.banner-data{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner-data h2
+{
+  font-size:48px;
+}
+.banner-data p{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+button{
+ background-color: black;
+ color: white;
+ border-radius: 20px;
+ padding: 20px;
+ transition: all 2s ease;
+}
+.secondary{
+    background: none;
+    color: black;
+}
+button:hover
+{
+    background-color: aqua;
+}
+
+.Title{
+   font-size: 40px;
+   text-shadow: 5px 5px aqua;
+   text-align: center;
+}
+#about{
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+@media (max-width:768px)
+{
+    header{
+        flex-direction: column;
+    }
+    #banner{
+        flex-direction: column-reverse;
+    }
+ 
+} 
+@media (max-width:480px)
+{
+    header{
+        flex-direction: column;
+    }
+    header ul{
+        flex-direction: column;
+    }
+     #banner{
+        flex-direction: column-reverse;
+    }
+    #banner img{
+        width: 80vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
