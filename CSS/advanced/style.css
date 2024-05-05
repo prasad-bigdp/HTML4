@@ -1,0 +1,14 @@
+.box{
+    perspective: 200;
+    background-color: azure;
+}
+img
+{
+    height: 300px;
+    width: 300px;
+     
+    transition: all 3s ease;
+}
+img:hover{
+transform: rotateY(45deg);
+}
