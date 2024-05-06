@@ -1,0 +1,100 @@
+JS is considered as Language of Web.
+JavaScript started in 1995. initially it is named as LiveScript. Changed the name to JS to gain attention from java developers
+
+JS is a case sensitive language.
+
+JS is synchronous(line after line) , single-threaded language(single task).
+
+JS uses JIT(Just in Time) compiler but js engines interpret Javascript.
+
+1. how to take comments in JS?
+There are two ways of commenting JS code 
+   i. single-line: singline comment follows //
+   ii. multi-line: multi line comment follows /* .......
+   ............*/
+
+2. How to include JS into HTML?
+There are two ways of connecting
+   i. internal JS: In the body or head, we can write JS code in "script" element
+   ii. External JS: you can include external js files by script src.
+
+3. what are the default / widely used methods in JS?
+console.log() --> to print something in console.
+alert()==> To display an alert
+confirm() --> To make use choose for ok or cancel. result will be stored in boolean
+prompt()---> to take input from user.
+
+4. what are the basic topics to cover any programming language?
+   i. variable/identifiers
+   ii.Data types
+   iii.operators
+   iv. functions(built in & user defined)
+   v. control statemnets,/Decision making statemnets
+   vi. loops
+
+5. what is a variable and how to declare in JS?
+
+variables in js can be declared by "var" keyword.
+
+6. what is Data type?
+Data type defines the type of data is stored.
+Basicaaly, there are two types of data types in JS.
+  a. Primitve 
+  b. Non-Primitve/reference
+
+7. Explain Primitve data types.
+There are primarily 5 Primitive data types are there.
+1.number: according js, any numerical value is number only, to know the type of datatype, we can use typeof() 
+operator.
+
+you can change data types by changing the values.
+
+JS also converts one data type into another data type by itself called implicit type casting
+2.string
+3.boolean
+4.undefined
+5.null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
