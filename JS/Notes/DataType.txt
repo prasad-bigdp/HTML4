@@ -1,0 +1,72 @@
+Datatypes: Datatypes defines the type of data. Primarily there are two data types
+1. Primtive Data types:
+There are mainly 5 primitve data types
+   i. number: any number whether it is decimal or integer or negitive consider as number in JS
+   ii. strings
+   iii. boolean
+   iv. undefined
+   v. null
+2. Non-Primitve Data Types/ reference Data Types
+   i. functions
+   ii. arrays
+   iii. objects
+
+JS follows dynamic Data typing/Duck typing.
+5+'4' ==> '54'
+5-'4' ===> 1
+5+true===>6
+
+
+
+2. Explain number data Type with its built in methods in details.
+
+var a=5;
+when you assign a numeric value to a identifier , it will become number data type.
+
+to check datatypes use typeof() operator
+
+any numerical value like decimal, none-decimal,fractions considered as number data type only.
+
+There are some default methods for number datatype:
+1. variable.toFixed(n)==> returns n digit rounded value after decimal
+eg:36.38596.toFixed(2)==>36.39
+2. variable.toPrecision(n) ==> returns n digit rounded value from the beginning
+eg: 36.38596.toPrecision(3) ===>36.4 
+3. variable.toString(base)==> convert given value to given base number
+eg:23.toString(2)==> 10111
+
+There some math methods also can be used.
+Math.sqrt(16) ===>4
+Math.cbrt(27)===>3
+Math.pow(2,3)===>8 or 2**3===>8
+Math.max(3,4)===>4
+Math.min(3,4)===>3
+Math.ceil(3.16)===>4
+Math.floor(3.85)===>3
+Math.round(3.2)===>3
+Math.random()==>0.0 - 1.0 any random value.
+
+
+
+
+
+
+What are Strings? Explain its use with built in functions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
