@@ -1,0 +1,8 @@
+//reusability
+// divide the code
+smallest chunks divided from code for specific tasks are called functions.
+function function-name(parameters)
+{
+    //body-definition
+}
+function-name(arguments)// function call
