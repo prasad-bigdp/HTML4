@@ -1,10 +1,11 @@
+console.log(u)
 function printData ()
 {
     let a = 25;
 console.log("data")
 }
 printData()
-
+var u = 20;
 // functions can also take parameter
 function sum (a, b)
 {
@@ -62,17 +63,20 @@ result()
  * @param {integer} init
  * @return { increment: Function, decrement: Function, reset: Function }
  */
-var createCounter = function(init) {
+var createCounter = function (init)
+{
     var c = init;
+    var c2 = init;
     function increment () { return ++c; }
-    function decrement () { return --c; }
+    function decrement () { return --c2; }
     function reset ()
     {
         return init
     }
-   return {increment,decrement,reset} 
+    return increment, decrement, reset;
 };
-
+var a= createCounter(10)
+a[0]
 //callback functions
 function mad ()
 {
