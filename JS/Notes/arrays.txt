@@ -1,0 +1,10 @@
+Array: collection of items.
+eg: ["raj",true,5].
+always elements store with uniques values called indexes. array indexes starts with 0 until length-1
+
+array is nonprimitve data type
+1. primitive stores single values  whereas non primitives can store multiple
+2. primitves compares the values , non primitves compares address
+3. 
+primitives are immutable , non primitve are mutable
+

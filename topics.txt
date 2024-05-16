@@ -41,10 +41,14 @@ JS(JavaScript)
 ============================
 Internal JS,External JS
 console,alert,confirm,propmt
-variables(var)
+variables(var,let,const)
 datatypes(primitve -number,strings,boolean,null,undefined,non-primitve- functions)
 Hoisting,callstack,execution content
 functions(default fn, with parameters, function expressions,callback fns, closures)
+if..switch
+while..do,while..for..for..of..for..in
+Arrays and Objects
+DOM
 
 
 
