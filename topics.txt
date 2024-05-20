@@ -48,7 +48,7 @@ functions(default fn, with parameters, function expressions,callback fns, closur
 if..switch
 while..do,while..for..for..of..for..in
 Arrays and Objects
-DOM
+
 
 
 
