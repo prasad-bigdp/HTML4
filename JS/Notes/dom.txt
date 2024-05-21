@@ -1,3 +1,4 @@
+Document Object Model:
 Everything you write in html,css is stored as a model in document object.
 document object stores html,css in tree structure called DOM-tree.
 
@@ -15,3 +16,21 @@ How to change values in DOM?
   textContent: textContent is used to grab the text inside the element
   innerText: innerText also grabs text inside the element but it also checks CSS. eg: in visibility hidden, eleemnt cannot be read by innerText
   innerHTML: innerHTML reads the code and updates
+  value: value is to get the value in input boxes
+
+  style:  you can manipulate style of the element by document.style
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
