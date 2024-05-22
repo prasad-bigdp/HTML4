@@ -1,16 +1,96 @@
 const mainDiv = document.getElementById("movies")
 const movies = [
 	{
-		name: "Heramandi",
-		url: "https://occ-0-2040-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABW4qUetA-FI88eYnf2z5HOxDGQiS9udGr356qaKWHjLxn5X2VoTnoQ1i6x83kMqMRCCoMhioTcUBl7LlTk9BVeqL34xQtF8LJ-BxAVQb3AxU00MJ7GsxVCCrL5EMsXpyqs7kRhkJakidYyx3rPKyY72R-LRcntusq_bQ_cdPNQljJ9jbUVEpXejvHjZ_YeShah5x2Mk9MBgbre9VgPs0UI1957xWHx98mQk8FHe5F8Vvr2hR5e1H653_g7MmOqeWZFlsS-GD1NMUpp2Bw_wnXrcFWKSwK9RNVNfehTePzbpghEu0BOx6py0KFjni3eEa2XeswvhCNGcCg8CzYxN2cpWrTJngULgcr5rTYYDoXwJYCPxLLPo.jpg?r=66f",
+		_id: {
+			$oid: "5eee651f739f8c674fd736ee",
+		},
+		name: "Tofu Bao",
+		image:
+			"https://photo2.foodgawker.com/wp-content/uploads/2020/12/3673283.jpg",
+		price: "250",
+		description: "crispy, fried tofu bites mixed in a spicy, topped Sausage",
 	},
 	{
-		name: "The Great Kapil Show",
-		url: "https://occ-0-2040-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABSM75z6ZHa0FVbW1Niw8khIz-zS0BHlSE21bNTzDrP1mHe3id4L79i1pgPmd9oRswLGBrf7Aw8swNTWvvBQMD8aOrB0dVMhwwdFl8ZHCNV-nraG3CWFTi2sn8JxHdTd8gC6CUKbTjUdBy7YSGmqlyrV_Z9b1jpm22rQIvb3ugjEjMn2hYVxhhbkShd3BQP9S4ymkvC5yhIlSAjkSrZaNHUtqOofsZdzj7HjTZcHctLbOeFlZxkdCBRmPcvORrQ3PpLoBQb_eNn671Nlg0ou540hke58Fo5SzWyLtTS8sc6Jjc69NC-mA8gEGXGjCF9vy1KqXJvWkR8gfXnoVl8XkAVDOI5mX12XICP7avsxFDl5Lwe64LjiWaPWBD-GStlfCNVUDqyEGLYFrBJvAi7hUy9flw5AJzXO6CD50OmVNIM7ihpusYCL5KG1cKjS6GnKN5vqfQhNmH6REFGSSGaBhfKBefPptYr781dBqr09181k52eIgcXdusJNWH4mfkAu8UlU.jpg?r=e22",
+		_id: {
+			$oid: "5eee6671a27a66807cf2bea2",
+		},
+		name: "Tacos De alambre",
+		image:
+			"https://photo.foodgawker.com/wp-content/uploads/2020/10/3652339.jpg",
+		price: "300",
+		description: "chicken cooked with bacon, topped with Oaxaca cheese",
 	},
 	{
-		name: "Amar Singh Chamila",
-		url: "https://occ-0-2040-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTC3EtgbWMT9lOOx3-t2tQz-vf5mFoTA_3Hj41Uo_i-r_0E0Obui7nyjbJuSwmNiKC4whETh7soFT8oh6POmcBssMrDFwTbWnGXHoeLtorhGhEMRftvtqUbbtyS8bTjg_trV.jpg?r=856",
+		_id: {
+			$oid: "5eee6692a27a66807cf2bea3",
+		},
+		name: "Tacos Al Pastor",
+		image:
+			"https://photo2.foodgawker.com/wp-content/uploads/2020/11/3666680.jpg",
+		price: "200",
+		description: "warmth from spices and sweetness from pineapple",
+	},
+	{
+		_id: {
+			$oid: "5eee66a5a27a66807cf2bea4",
+		},
+		name: "Chicken Bruschetta",
+		image:
+			"https://photo.foodgawker.com/wp-content/uploads/2020/10/3655673.jpg",
+		price: "500",
+		description: "crunch, succulent juicy chicken and a glaze drizzle",
+	},
+	{
+		_id: {
+			$oid: "5eee66c4a27a66807cf2bea5",
+		},
+		name: "Vegetarian Frito Pie",
+		image:
+			"https://photo2.foodgawker.com/wp-content/uploads/2020/10/3650127.jpg",
+		price: "350",
+		description: "Kick off the week than with this Vegetarian Frito Pie",
+	},
+	{
+		_id: {
+			$oid: "5eee66cfa27a66807cf2bea6",
+		},
+		name: "Kafta Kebabs",
+		image:
+			"https://photo2.foodgawker.com/wp-content/uploads/2020/09/3647666.jpg",
+		price: "200",
+		description: "beautifully flavored with spices and fresh parsley",
+	},
+	{
+		_id: {
+			$oid: "5eee66eea27a66807cf2bea7",
+		},
+		name: "Balik Ekmek",
+		image:
+			"https://photo2.foodgawker.com/wp-content/uploads/2020/09/3642459.jpeg",
+		price: "600",
+		description: "BALIK EKMEK / ISTANBUL STREET FLAVOR, FISH SANDWICH",
+	},
+	{
+		_id: {
+			$oid: "5eee6717a27a66807cf2bea8",
+		},
+		name: "Kielbasa Quesadillas",
+		image:
+			"https://photo2.foodgawker.com/wp-content/uploads/2020/07/3625674.jpg",
+		price: "500",
+		description:
+			"Sausage, peppers, and onions with a twist: Kielbasa Quesadillas",
+	},
+	{
+		_id: {
+			$oid: "5eee6717a27a66807cf2bea9",
+		},
+		name: "Ground Tacos",
+		image:
+			"https://photo.foodgawker.com/wp-content/uploads/2020/08/3631018.jpg",
+		price: "400",
+		description:
+			"Sandwiches have eggs, bacon, cheese, avocado, spinach, and tomato",
 	},
 ]
 function displayData() {
@@ -19,7 +99,7 @@ function displayData() {
         const myDiv = document.createElement('div')
         myDiv.classList.add('movie')
         const image = document.createElement("img") //<img src="" alt=""/>
-				image.src = m.url
+				image.src = m.image
 				image.alt = m.name
 				const title = document.createElement("h2")
         title.textContent = m.name

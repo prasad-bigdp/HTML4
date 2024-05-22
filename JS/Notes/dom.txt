@@ -21,6 +21,10 @@ How to change values in DOM?
   style:  you can manipulate style of the element by document.style
   classnames: document.classList.add/remove/toggle
 
+3. creation:
+How to create an element
+document.createElement(elementname)
+element.append/appendChild(elements)
 
 
 
