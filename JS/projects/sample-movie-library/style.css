@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+#movies{
+display: grid;
+grid-template-columns: repeat(3,auto);
+gap: 20px;
+}
+.movie{
+ box-shadow: 5px 5px black;
+}

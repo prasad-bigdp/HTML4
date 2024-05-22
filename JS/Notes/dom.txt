@@ -19,6 +19,7 @@ How to change values in DOM?
   value: value is to get the value in input boxes
 
   style:  you can manipulate style of the element by document.style
+  classnames: document.classList.add/remove/toggle
 
 
 

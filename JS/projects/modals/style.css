@@ -1,0 +1,10 @@
+.modal{
+   position: absolute;
+   top: 30vh;
+    display: none;
+    z-index: 100px;
+}
+.box{
+     background-color: red;
+    color: white;
+}
