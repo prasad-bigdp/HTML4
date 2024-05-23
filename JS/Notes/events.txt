@@ -1,0 +1,3 @@
+event propagation: events will get trigger by default from innermost to outermost. This propagation is called bubbling.
+You can make this process reverse called as capturing
+event delegation is a design pattern which makes logic works for parent instead of individual child items

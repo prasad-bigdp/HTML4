@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+#books-library{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.myDiv{
+    padding: 20px;
+    box-shadow: 5px 5px black;
+}
