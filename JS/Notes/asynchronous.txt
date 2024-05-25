@@ -1,0 +1,7 @@
+Till now, you have used document and console, these are web api's, browser also contains two things one is timers, fetch
+
+Timers:  setTimeout and setInterval
+async logic:
+JS is synchronous and single threaded language
+
+fetch:
