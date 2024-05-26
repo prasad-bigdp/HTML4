@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+header input{
+    height:50px;
+    width: 40vw;
+    font-size: 24px;
+    color: black;
+    border-radius: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: max-content;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.namee{
+    color: white;
+    font-size: 48px;
+}
