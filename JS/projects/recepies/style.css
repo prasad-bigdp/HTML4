@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.receipe{
+    padding: 30px;
+    border-radius: 20px;
+}
