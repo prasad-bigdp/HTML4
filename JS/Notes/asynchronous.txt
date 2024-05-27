@@ -1,7 +1,34 @@
+DOM:Document Object model
 Till now, you have used document and console, these are web api's, browser also contains two things one is timers, fetch
 
 Timers:  setTimeout and setInterval
+setTimeout(function(){
+    console.log("hi)
+},2000)
+setInterval(function(){
+    console.log("hi)
+},2000)
+
 async logic:
 JS is synchronous and single threaded language
+Js will never wait for any functions so all async functions will be pushed into task queue and event loop will monitor the call stack and when call stack is empty , event loop passes async functions one by one to call stack
 
-fetch:
+API(Application Programming Interface):
+Application connect through APIs, Link in the API is called endpoint
+In olden times we used to connect by XHR(XmlHttpRequest), but modern browsers uses fetch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
