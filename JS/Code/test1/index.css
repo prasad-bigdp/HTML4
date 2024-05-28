@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(aqua,blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#main{
+ background-color: white;
+ color: black;
+ padding: 50px;
+ border-radius: 20px;
+ text-align: center;
+}
+button{
+    width: max-content;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
