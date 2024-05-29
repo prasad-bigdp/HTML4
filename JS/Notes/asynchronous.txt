@@ -17,6 +17,23 @@ API(Application Programming Interface):
 Application connect through APIs, Link in the API is called endpoint
 In olden times we used to connect by XHR(XmlHttpRequest), but modern browsers uses fetch
 
+fetch('link')
+.then(function(res){return res.json()})
+.then(function(data){console.log(data)})
+.catch(function(err){console.log(err)})
+
+fetch returns a promise, if that promise is resolved it will go to then , else it will go to catch. always then will take input from previous statement return
+
+
+
+
+
+
+
+
+
+
+
 
 
 
