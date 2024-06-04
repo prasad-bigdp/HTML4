@@ -5,13 +5,14 @@ function display (a,b)
 {
     console.log(this.name,a+b)
 }
+window.display(5, 3)
 let obj = {
 	name: "raj",
 	age: 55,
-	printName: () => {
+	printName: ()=>  {
 		console.log(this.name)
 	},
-	printName2: () => {
+	printName2: function()  {
 		console.log(this.name)
 	},
 }
