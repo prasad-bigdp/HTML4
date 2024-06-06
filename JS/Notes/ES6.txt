@@ -1,0 +1,9 @@
+//ES6 features
+//2015 - js released a version ES6. some of these features are
+1. template literals
+2. let and const
+3. arrow functions
+4. classes and objects
+5. class inheritance
+6. rest and spread parameters
+7. object or array destructuring
