@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+span{
+    color: aqua;
+}
+button{
+    background-color: aliceblue;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+}
+#main
+{
+     display: grid;
+     grid-template-columns: repeat(3,auto);
+     gap:15px;
+     max-width: 1280px;
+     margin: auto;
+     padding: 50px 0px;
+}
+.myclass{
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
