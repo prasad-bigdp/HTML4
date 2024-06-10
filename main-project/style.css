@@ -31,3 +31,9 @@ button:hover{
     background-color: antiquewhite;
     border-radius: 20px;
 }
+#product
+{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}

@@ -15,7 +15,7 @@ const displayData = (data) =>
         prod.classList.add('myclass')
         title.textContent = pro.title;
         const link = document.createElement('a');
-        link.href = `/product.html?pid=${pro.id}`
+        link.href = `./product.html?pid=${pro.id}`
         link.target= "_blank"
         const image = document.createElement('img');
         image.src = pro.thumbnail;
