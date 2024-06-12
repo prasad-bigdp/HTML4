@@ -1,0 +1,22 @@
+---------libraries-------
+threejs
+gsap
+typed js
+jquery
+bootstrap
+axios
+aos
+-----------inpirations------
+awwards
+dribble
+behance
+---------codes------------
+codepen
+github
+codemyui
+free frontend
+
+what to learn: roadmap.sh
+where to learn /how : https://github.com/markodenic/web-development-resources
+projects: https://github.com/practical-tutorials/project-based-learning
+free-for-dev

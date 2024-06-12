@@ -31,6 +31,12 @@ button:hover{
     background-color: antiquewhite;
     border-radius: 20px;
 }
+#cart span{
+    color: black;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 42px;
+}
 #product
 {
     display: flex;
